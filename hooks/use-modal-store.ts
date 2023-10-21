@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-export type ModalType = "createServer" | "invite" | "editServer" | "members" | "createChannel" | "leaveServer" | "deleteServer" | "deleteChannel" | "editChannel" | "messageFile" | "deleteMessage";
+export type ModalType = "createServer";
 
 interface ModalStore {
     type: ModalType | null;
