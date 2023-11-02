@@ -49,7 +49,7 @@ const formSchema = z.object({
     content: z.string().min(1),
 });
 
-export const ChatItem = ({
+const ChatItem = ({
     id,
     content,
     member,
@@ -246,3 +246,5 @@ export const ChatItem = ({
         </div>
     );
 };
+
+export default ChatItem;
